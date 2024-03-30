@@ -29,7 +29,7 @@
       <div class="slides">
 	<section>
 	  <section data-background-image="./city_skyline.jpg">
-	    <h2>RESEARCH ON UNINSURED DEPOSITS</h2>
+	    <h2>BANKING RESEARCH OVERVIEW</h2>
 	    <br>
 	    <br>
 	    <br>
@@ -38,7 +38,7 @@
 	    <br>
 	  </section>
 	  <section>
-	    <h2>RESEARCH ON UNINSURED DEPOSITS</h2>
+	    <h2>BANKING RESEARCH OVERVIEW</h2>
 	    <br>
 	    <p> MATT BRIGIDA </p>
 	    <p> Associate Professor of Finance (SUNY Polytechnic Institute)</p>
@@ -47,12 +47,45 @@
 
 
 <section>
-<h3>Time-Varying Income and Expense Betas</h3>
-
+  <h2>Time-Varying Income and Expense Betas</h2>
 </section>
-	  
 
-		<section data-markdown>
+<section>
+  <p align="left">It has been commonly thought banks are necessarily exposed to <span class="fragment highlight-current-red">interest rate risk.</span></p>
+  <p align="left">Recent research (TODO cite) found evidence that the <span ="fragment highlight-current-green">deposit franchise</span> hedges interest rate risk in bank assets.</p>
+</section>
+
+<section>
+  <h3>The Deposit Franchise</h3>
+  <p align="left">The bank's investment in buildings, IT, advertising, and salaries allows it to pay depositors: </p>
+  <span class="fragment highlight-green"> $$r^d_t = \beta^{Dep} f_t$$ </span>
+  <p align="left">where $r^d_t$ is the deposit rate, $f_t$ is the short-rate (fed funds) and <span class="fragment highlight-current-green">$\beta^{Dep} \in (0,1)$.</span> <span class="fragment highlight-current-green">  $\beta^{Dep}$ is the <i>Deposit Beta</i></span></p>
+</section>
+
+<section>
+  <p align="left">$IntInc_{dt} = \alpha^{Inc}_d + \beta^{Inc}_{d,0} FedFunds_{t} +$</p>
+  <p align="center">$+ \beta^{Inc}_{d,1} FedFunds_{t-1} + \epsilon_{dt}$</p>
+<br>
+  <p align="left">and we report:</p>
+  <br>
+  <p align="left">$\beta^{Inc}_d = \beta^{Inc}_{d,0} + \beta^{Inc}_{d,1}$</p>
+</section>
+
+
+
+<section data-background-image="./code_image.jpg">
+  <div class="stretch">
+    <iframe src="./TV_ii_beta_by_decile.pdf" height="100%" width="100%"></iframe>
+  </div>
+</section>
+
+<section data-background-image="./code_image.jpg">
+  <div class="stretch">
+    <iframe src="./TV_iexp_beta_by_decile.pdf" height="100%" width="100%"></iframe>
+  </div>
+</section>
+
+<section data-markdown>
 	  <textarea data-template>
 ## Heading
 
