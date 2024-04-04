@@ -56,7 +56,7 @@
 
 <section>
   <h2>Recent Research</h2>
-  <p align="left">Jiang et al (2003) investigate the use of interest rate hedges around the 2022 interest rate increases.  They find about 25\% of banks use interest rate swaps, however <span class="fragment highlight-current-red"> they only hedge 4\% of assets on average.</span></p>
+  <p align="left">Jiang et al (2003) investigate the use of interest rate hedges around the 2022 interest rate increases.  They find about 25% of banks use interest rate swaps, however <span class="fragment highlight-current-red"> they only hedge 4% of assets on average.</span></p>
 </section>
 
 <section>
@@ -119,8 +119,9 @@
 
 <section>
   <h2>Other Results</h2>
-    <li>Uninsured deposits are <span class="fragment highlight-current-red">decreasing in loan losses</span>.</li>
-    <li>Total Loans/Leases are inversely related to uninsured deposits.</li>
+  <ul>
+    <li>Uninsured deposits are <span class="fragment highlight-current-green">decreasing in loan losses</span>.</li>
+    <li><span class="fragment highlight-current-red">Total Loans/Leases are inversely</span> related to uninsured deposits.</li>
     <li>Wholesale funding costs are positively related to uninsured deposits.</li>
   </ul>
 </section>
@@ -141,7 +142,7 @@
 
 <section>
   <p align="left">It has been commonly thought banks are necessarily exposed to <span class="fragment highlight-current-red">interest rate risk.</span></p>
-  <p align="left">Recent research (TODO cite) found evidence that the <span ="fragment highlight-current-green">deposit franchise</span> hedges interest rate risk in bank assets.</p>
+  <p align="left">Recent research found evidence that the <span ="fragment highlight-current-green">deposit franchise</span> hedges interest rate risk in bank assets.</p>
 </section>
 
 <section>
@@ -152,21 +153,21 @@
 </section>
 
 <section>
-  <p align="left">$IntInc_{dt} = \alpha^{Inc}_d + \beta^{Inc}_{d,0} FedFunds_{t} +$</p>
-  <p align="center">$+ \beta^{Inc}_{d,1} FedFunds_{t-1} + \epsilon_{dt}$</p>
+  <p align="left">$IntInc_{dt} = \alpha^{Inc}_{d,t} + \beta^{Inc}_{d,0,t} FedFunds_{t} +$</p>
+  <p align="center">$+ \beta^{Inc}_{d,1,t} FedFunds_{t-1} + \epsilon_{dt}$</p>
 <br>
   <p align="left">and we report:</p>
   <br>
-  <p align="left">$\beta^{Inc}_d = \beta^{Inc}_{d,0} + \beta^{Inc}_{d,1}$</p>
+  <p align="left">$\beta^{Inc}_{d,t} = \beta^{Inc}_{d,0,t} + \beta^{Inc}_{d,1,t}$</p>
 </section>
 
 <section>
-  <p align="left">$IntExp_{dt} = \alpha^{Exp}_d + \beta^{Exp}_{d,0} FedFunds_{t} +$</p>
-  <p align="center">$+ \beta^{Exp}_{d,1} FedFunds_{t-1} + \epsilon_{dt}$</p>
+  <p align="left">$IntExp_{dt} = \alpha^{Exp}_{d,t} + \beta^{Exp}_{d,0,t} FedFunds_{t} +$</p>
+  <p align="center">$+ \beta^{Exp}_{d,1,t} FedFunds_{t-1} + \epsilon_{dt}$</p>
 <br>
   <p align="left">and we report:</p>
   <br>
-  <p align="left">$\beta^{Exp}_d = \beta^{Exp}_{d,0} + \beta^{Exp}_{d,1}$</p>
+  <p align="left">$\beta^{Exp}_{d,t} = \beta^{Exp}_{d,0,t} + \beta^{Exp}_{d,1,t}$</p>
 </section>
 
 <section data-background-image="./code_image.jpg">
@@ -220,7 +221,7 @@
 
 
 <section>
-  <h1>Banking Data in Teaching</h1>
+  <h2>Banking Data in Teaching</h2>
 </section>
 
 <section>
@@ -231,7 +232,7 @@
 </section>
 
 <section>
-  <h1>Financial Education Examples</h1>
+  <h2>Financial Education Examples</h2>
 </section>
 
 <section>
@@ -246,8 +247,8 @@
 <section>
   <h2>Investments and Portfolio Theory</h2>
   <ul>
-    <li><a href="">Limit Order Book</a>https://financial-education.github.io/5mf_limit-order-book/</li>
-   <li><a href="">Greeks</a>https://ztranche.com/investments/options/greeks/</li> 
+    <li><a href="https://financial-education.github.io/5mf_limit-order-book/">Limit Order Book</a></li>
+   <li><a href="https://ztranche.com/investments/options/greeks/">Greeks</a></li> 
     <li><a href="https://ztranche.com/portfolio_theory/chapter3/">Mean-Variance Portfolio Optimization</a></li>
     <li><a href="https://ztranche.com/portfolio_theory/pairs_trade/">The Pairs Trade</a></li>
   </ul>
